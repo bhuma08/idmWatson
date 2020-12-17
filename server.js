@@ -5,12 +5,12 @@ const cors = require('cors');
 server.use(cors());
 
 const flats = [
-    {name: 'St Johns Road, Clarkenwell',
-    price: '£500,000',
+    {Address: 'St Johns Road, Clarkenwell',
+    Price: '£2,000/month',
     description:'This is a 2 bedroom flat in the heart of city of London.' }, 
 
-    {name: 'Dance Square, London',
-    price: '£450,000',
+    {Address: 'Dance Square, London',
+    price: '£1,500/month',
     description:'This is a 1 bedroom flat with a balcony.'}
 ];
 
