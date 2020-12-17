@@ -14,7 +14,7 @@ const flats = [
     description:'This is a 1 bedroom flat with a balcony.'}
 ];
 
-server.get('/', (req, res) => res.send({flats}));
+server.get('/', (req, res) => res.send(JSON.stringify(flats)));
 
 const port = process.env.PORT || 3000;
 server.listen(port, () => console.log(`Express departing now from http://localhost:${port}`))
