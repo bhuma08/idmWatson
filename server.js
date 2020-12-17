@@ -7,11 +7,11 @@ server.use(cors());
 const flats = [
     {Address: 'St Johns Road, Clarkenwell',
     Price: '£2,000/month',
-    description:'This is a 2 bedroom flat in the heart of city of London.' }, 
+    Description:'This is a 2 bedroom flat in the heart of city of London.' }, 
 
     {Address: 'Dance Square, London',
-    price: '£1,500/month',
-    description:'This is a 1 bedroom flat with a balcony.'}
+    Price: '£1,500/month',
+    Description:'This is a 1 bedroom flat with a balcony.'}
 ];
 
 server.get('/', (req, res) => res.send(JSON.stringify(flats)));
